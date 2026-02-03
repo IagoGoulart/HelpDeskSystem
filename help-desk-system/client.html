@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Tickets | Help Desk</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/client.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    
+
+</head>
+<body>
+
+<header class="header">
+    <h1>Help Desk - Cliente</h1>
+    <a href="atendente.html" class="switch-btn">Ver como Atendente</a>
+</header>
+
+<main class="dashboard">
+
+    <section class="card">
+       <h2><i class="fa-solid fa-circle-plus"></i>Abrir Novo Chamado</h2>
+
+        <form id="ticket-form">
+            <label>Título do problema</label>
+            <input id="ticket-title" type="text" placeholder="Ex: Internet não funciona" required>
+
+            <label for="ticket-category">Categoria</label>
+            <select id="ticket-category" name="category" required>
+                <option value="">Selecione uma categoria</option>
+                <option value="internet">Internet</option>
+                <option value="hardware">Hardware</option>
+                <option value="software">Software</option>
+                <option value="email">Email</option>
+            </select>
+
+            <label>Descrição</label>
+            <textarea id="ticket-description" placeholder="Descreva o problema..." required></textarea>
+            <button id="submit-ticket" type="submit">Abrir Ticket</button>
+        </form>
+    </section>
+
+ 
+    <section class="card">
+        <h2><i class="fa-solid fa-folder-open"></i> Meus Chamados</h2>
+        
+        <label for="filter">Filtrar por status:</label>
+        <select id="filter">
+            <option value="all">Todos</option>
+            <option value="open">Aberto</option>
+            <option value="closed">Resolvido</option>
+            <option value="canceled">Cancelado</option>
+        </select>
+
+        <ul class="ticket-list">
+        
+        </ul>
+    </section>
+
+</main>
+
+<script src="js/client.js"></script>
+</body>
+</html>
