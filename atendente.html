@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Área do Atendente | Help Desk</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/atendente.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Help Desk - Atendente</h1>
+    <a href="client.html" class="switch-btn">Voltar para Cliente</a>
+</header>
+
+<main class="dashboard">
+
+    <!-- Filtro de Tickets -->
+    <section class="card">
+        <h2><i class="fa-solid fa-filter"></i> Filtrar Tickets</h2>
+        <label for="filter">Status:</label>
+        <select id="filter">
+            <option value="all">Todos</option>
+            <option value="open">Aberto</option>
+            <option value="closed">Resolvido</option>
+            <option value="canceled">Cancelado</option>
+        </select>
+    </section>
+
+    <section class="card">
+    <h2><i class="fa-solid fa-list"></i> Tickets Recebidos</h2>
+    
+   
+    <ul class="ticket-list">
+    </ul>
+</section>
+</main>
+<script src="js/atendente.js"></script>
+</body>
+</html>
