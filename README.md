@@ -1,4 +1,4 @@
-# 🎫 Help Desk System
+# Help Desk System
 
 Simulador de sistema de chamados (Help Desk) desenvolvido com **HTML, CSS e JavaScript puro**, focado em manipulação de DOM, lógica de aplicação e simulação de fluxo real de suporte técnico.
 
@@ -6,17 +6,17 @@ O projeto reproduz a dinâmica entre **cliente** e **atendente**, permitindo abe
 
 ---
 
-## 🚀 Demonstração do sistema
+## Demonstração do sistema
 
 O fluxo simula um sistema real de suporte:
 
-### 👤 Cliente
+### Cliente
 
 * Abre chamados
 * Visualiza tickets
 * Filtra por status
 
-### 🛠 Atendente
+### Atendente
 
 * Visualiza todos os tickets
 * Resolve chamados
@@ -27,7 +27,7 @@ Todos os dados são armazenados em **localStorage**, simulando persistência sem
 
 ---
 
-## 🧠 Funcionalidades
+## Funcionalidades
 
 * 🔐 Login simulado
 * 🎫 Criação de tickets com título, categoria e descrição
@@ -41,7 +41,7 @@ Todos os dados são armazenados em **localStorage**, simulando persistência sem
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * HTML5
 * CSS3
@@ -64,7 +64,7 @@ Senha: 1234
 
 ---
 
-## 🎯 Objetivo do projeto
+## Objetivo do projeto
 
 Este projeto foi desenvolvido com foco em:
 
@@ -79,7 +79,7 @@ Ele faz parte do meu portfólio com o objetivo de aprimorar habilidades para atu
 
 ---
 
-## 📌 Aprendizados
+## Aprendizados
 
 * Controle de estado com localStorage
 * Renderização dinâmica de listas
@@ -90,11 +90,12 @@ Ele faz parte do meu portfólio com o objetivo de aprimorar habilidades para atu
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Iago Martins Goulart**
 Estudante de Engenharia de Software
 Focado em desenvolvimento e aprendizado contínuo
+
 
 
 
