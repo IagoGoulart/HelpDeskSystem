@@ -51,29 +51,6 @@ Todos os dados são armazenados em **localStorage**, simulando persistência sem
 
 ---
 
-## 📂 Estrutura do projeto
-
-```
-help-desk-system/
-├── README.md
-├── index.html
-├── client.html
-├── atendente.html
-│
-├── css/
-│   ├── style.css
-│   ├── client.css
-│   └── atendente.css
-│
-├── js/
-│   ├── login.js
-│   ├── client.js
-│   └── atendente.js
-│
-└── logo.png
-```
-
----
 
 ## ▶ Como executar
 
@@ -84,6 +61,7 @@ help-desk-system/
 
 ```
 Email: entrar@gmail.com
+
 Senha: 1234
 ```
 
@@ -120,6 +98,7 @@ Ele faz parte do meu portfólio com o objetivo de aprimorar habilidades para atu
 **Iago Martins Goulart**
 Estudante de Engenharia de Software
 Focado em desenvolvimento e aprendizado contínuo
+
 
 
 
