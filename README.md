@@ -54,10 +54,7 @@ Todos os dados são armazenados em **localStorage**, simulando persistência sem
 
 ## ▶ Como executar
 
-1. Baixe ou clone o repositório
-2. Abra o arquivo `index.html` no navegador
-
-**Login de teste:**
+acesse o link: https://iagogoulart.github.io/HelpDeskSystem/
 
 ```
 Email: entrar@gmail.com
@@ -98,6 +95,7 @@ Ele faz parte do meu portfólio com o objetivo de aprimorar habilidades para atu
 **Iago Martins Goulart**
 Estudante de Engenharia de Software
 Focado em desenvolvimento e aprendizado contínuo
+
 
 
 
